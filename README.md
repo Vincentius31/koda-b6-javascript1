@@ -5,13 +5,13 @@
 ```mermaid
 flowchart TD
 idStart((Start))
-idInput[/"Input: R"/]
-idNilaiPhi["NilaiPhi = 3.14"]
-idLuasLingkaran["LuasLingkaran = NilaiPhi * R * R"]
-idKelilingLingkaran["KelilingLingkaran = 2 * NilaiPhi * R"]
-idProsesLuas[HasilLuas = #quot;Hasil Luas Lingkaran: LuasLingkaran#quot;]
-idProsesKeliling[HasilKeliling = #quot;Hasil Keliling Lingkaran: KelilingLingkaran#quot;]
-idOutput[/Output: HasilLuas,HasilKeliling/]
+idInput[/"Input: jariJari"/]
+idNilaiPhi["phi = 3.14"]
+idLuasLingkaran["luasLingkaran = phi * R * R"]
+idKelilingLingkaran["kelilingLingkaran = 2 * phi * R"]
+idProsesLuas[hasilLuasLingkaran = #quot;Hasil Luas Lingkaran: luasLingkaran#quot;]
+idProsesKeliling[hasilKelilingLingkaran = #quot;Hasil Keliling Lingkaran: kelilingLingkaran#quot;]
+idOutput[/Output: hasilLuasLingkaran, hasilKelilingLingkaran/]
 idFinish(((Stop)))
 
 idStart --> idInput --> idNilaiPhi --> idLuasLingkaran --> idKelilingLingkaran --> idProsesLuas --> idProsesKeliling --> idOutput --> idFinish
