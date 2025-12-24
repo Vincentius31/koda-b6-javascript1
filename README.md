@@ -6,7 +6,7 @@
 flowchart TD
 idStart((Start))
 idInput[/"Input: jariJari"/]
-idPhi["Phi = 0"]
+idPhi["phi = 0"]
 idKondisi1{"jariJari % 7 == 0"}
 idKondisiTrue["phi = 22/7"]
 idKondisiFalse["phi = 3.14"]
