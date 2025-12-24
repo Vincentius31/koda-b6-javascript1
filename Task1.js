@@ -4,5 +4,8 @@ let jariJari = 7
 let luasLingkaran = phi * jariJari * jariJari
 let kelilingLingkaran = 2 * phi * jariJari
 
-console.log(luasLingkaran)
-console.log(kelilingLingkaran)
+let hasilLuasLingkaran = `Hasil Luas Lingkaran: ${luasLingkaran}`
+let hasilKelilingLingkaran = `Hasil Keliling Lingkaran: ${kelilingLingkaran}`
+
+console.log(hasilLuasLingkaran)
+console.log(hasilKelilingLingkaran)
