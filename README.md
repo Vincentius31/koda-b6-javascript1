@@ -9,10 +9,8 @@ idInput[/"Input: jariJari"/]
 idNilaiPhi["phi = 3.14"]
 idLuasLingkaran["luasLingkaran = phi * jariJari * jariJari"]
 idKelilingLingkaran["kelilingLingkaran = 2 * phi * jariJari"]
-idProsesLuas[hasilLuasLingkaran = #quot;Hasil Luas Lingkaran: luasLingkaran#quot;]
-idProsesKeliling[hasilKelilingLingkaran = #quot;Hasil Keliling Lingkaran: kelilingLingkaran#quot;]
-idOutput[/Output: hasilLuasLingkaran, hasilKelilingLingkaran/]
+idOutput[/Output: "Hasil Luas Lingkaran : "+luasLingkaran, "Hasil Keliling Lingkaran : "+kelilingLingkaran/]
 idFinish(((Stop)))
 
-idStart --> idInput --> idNilaiPhi --> idLuasLingkaran --> idKelilingLingkaran --> idProsesLuas --> idProsesKeliling --> idOutput --> idFinish
+idStart --> idInput --> idNilaiPhi --> idLuasLingkaran --> idKelilingLingkaran -->  idOutput --> idFinish
 ```
