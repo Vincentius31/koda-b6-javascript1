@@ -6,6 +6,7 @@
 flowchart TD
 idStart((Start))
 idInput[/"Input: jariJari"/]
+idPhi["Phi = 0"]
 idKondisi1{"jariJari % 7 == 0"}
 idKondisiTrue["phi = 22/7"]
 idKondisiFalse["phi = 3.14"]
@@ -15,7 +16,7 @@ idOutput1[/Output: "Hasil Luas Lingkaran : "+luasLingkaran /]
 idOutput2[/Output: "Hasil Keliling Lingkaran : "+kelilingLingkaran /]
 idFinish(((Stop)))
 
-idStart --> idInput --> idKondisi1
+idStart --> idInput --> idPhi --> idKondisi1
 idKondisi1--True-->idKondisiTrue
 idKondisi1--False-->idKondisiFalse
 idKondisiTrue --> idLuasLingkaran

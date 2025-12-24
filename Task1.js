@@ -1,5 +1,5 @@
 let jariJari = 10
-let phi
+let phi = 0
 
 if(jariJari % 7 == 0){
     phi = 22/7
