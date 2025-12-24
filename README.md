@@ -7,8 +7,8 @@ flowchart TD
 idStart((Start))
 idInput[/"Input: jariJari"/]
 idNilaiPhi["phi = 3.14"]
-idLuasLingkaran["luasLingkaran = phi * R * R"]
-idKelilingLingkaran["kelilingLingkaran = 2 * phi * R"]
+idLuasLingkaran["luasLingkaran = phi * jariJari * jariJari"]
+idKelilingLingkaran["kelilingLingkaran = 2 * phi * jariJari"]
 idProsesLuas[hasilLuasLingkaran = #quot;Hasil Luas Lingkaran: luasLingkaran#quot;]
 idProsesKeliling[hasilKelilingLingkaran = #quot;Hasil Keliling Lingkaran: kelilingLingkaran#quot;]
 idOutput[/Output: hasilLuasLingkaran, hasilKelilingLingkaran/]
