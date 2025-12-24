@@ -1,5 +1,12 @@
-let jariJari = 7
-const phi = 3.14
+let jariJari = 10
+let phi
+
+if(jariJari % 7 == 0){
+    phi = 22/7
+}
+else{
+    phi = 3.14 
+}
 
 const luasLingkaran = phi * jariJari * jariJari
 const kelilingLingkaran = 2 * phi * jariJari
