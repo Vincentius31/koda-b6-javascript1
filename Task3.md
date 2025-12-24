@@ -8,10 +8,10 @@ idKondisi1False{"fullname == #quot;Dan#quot; || fullname == #quot;John#quot;" }
 idKondisi1FalseJawabTrue[/"Output: #quot;What's up fullName#quot;"/]
 idKondisi1FalseJawabFalse{fullname == #quot;John#quot;}
 idKondisi2{age > 18}
-idKondisi2True[/"Output: #quot;What's up fullName#quot; + #quot;How are you today?#quot;"/]
-idKondisi2False[/"Output: #quot;What's up fullName#quot; + #quot;Let's go to school!#quot;"/]
+idKondisi2True[/"Output: #quot;How are you today?#quot;"/]
+idKondisi2False[/"Output:#quot;Let's go to school!#quot;"/]
 idKondisi3{"hobbies[0] === #quot;Programming#quot;"}
-idKondisi3True[/"Output: #quot;What's up fullName#quot; + #quot;Let's go to school!#quot;+ #quot;I love JavaScript#quot;"/]
+idKondisi3True[/"Output: #quot;I love JavaScript#quot;"/]
 idStop(((Stop)))
 idKondisi4True[/"Output: #quot;Hi fullname#quot;"/]
 idKondisi4False[/Output: #quot;Hola!#quot;/]
