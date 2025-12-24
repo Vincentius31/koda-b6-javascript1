@@ -1,5 +1,5 @@
-const phi = 3.14
 let jariJari = 7
+const phi = 3.14
 
 let luasLingkaran = phi * jariJari * jariJari
 let kelilingLingkaran = 2 * phi * jariJari
