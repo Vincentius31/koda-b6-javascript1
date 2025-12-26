@@ -15,4 +15,5 @@ idKondisi -- False --> idStop
 idKondisi2 -- True --> idKondisi2True
 idKondisi2 -- False --> idKondisi2False
 idKondisi2False --> idKondisi
+idKondisi2True --> idKondisi2False
 ```
