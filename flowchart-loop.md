@@ -31,11 +31,11 @@ idKondisi2True[x = 10]
 idKondisi2False[x++]
 idStop(((Stop)))
 
-idStart --> idInisialisasi --> idProses --> idKondisi2 
+idStart --> idInisialisasi --> idKondisi2 
 idKondisi2 -- True --> idKondisi2True
 idKondisi2 -- False --> idKondisi2False
-idKondisi2True --> idKondisi2False
+idKondisi2True --> idKondisi2False 
 idKondisi2False --> idKondisi
-idKondisi -- True --> idProses
+idKondisi -- True --> idProses --> idKondisi2
 idKondisi -- False --> idStop
 ```
