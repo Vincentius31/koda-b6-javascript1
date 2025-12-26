@@ -4,7 +4,7 @@ idStart((Start))
 idInisialisasi[/Input: x = 1/]
 idKondisi{x <= 10}
 idProses[/Output: x/]
-idKondisi2{x = 5}
+idKondisi2{x === 5}
 idKondisi2True[x = 10]
 idKondisi2False[x++]
 idStop(((Stop)))
