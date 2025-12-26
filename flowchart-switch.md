@@ -14,7 +14,7 @@ idStop(((Stop)))
 idStart --> idInput --> idProcess --> idSwitch
 idSwitch -- True --> idOutputTrue --> idStop
 idSwitch -- False --> idOutputFalse --> idStop
-idInput --> kondisiDefault
+idProcess --> kondisiDefault
 kondisiDefault -- True --> kondisiDefaultTrue --> idStop
 kondisiDefault -- False --> kondisiDefaultFalse --> idStop
 ```
