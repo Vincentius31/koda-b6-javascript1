@@ -7,16 +7,17 @@ idSwitch{IS_FEATURE_ACTIVE == True}
 idOutputTrue[/Output: #quot;Hello#quot;/]
 idKondisiFalse{IS_FEATURE_ACTIVE == False}
 idOutputFalse[/Output: #quot;Hi#quot;/]
-kondisiDefault{num = 100}
+kondisiDefault{num === 100}
 kondisiDefaultTrue[/Output: num/]
 kondisiDefaultFalse[/Output: #quot;Bonjour#quot;/]
+idOutputLanjutkan[/Output: #quot;Lanjutkan#quot;/]
 idStop(((Stop)))
 
 idStart --> idInput --> idProcess --> idSwitch
-idSwitch -- True --> idOutputTrue --> idStop
+idSwitch -- True --> idOutputTrue --> idOutputLanjutkan --> idStop
 idSwitch -- False --> idKondisiFalse 
-idKondisiFalse -- True --> idOutputFalse --> idStop
+idKondisiFalse -- True --> idOutputFalse --> idOutputLanjutkan 
 idKondisiFalse -- False --> kondisiDefault
-kondisiDefault -- True --> kondisiDefaultTrue --> idStop
-kondisiDefault -- False --> kondisiDefaultFalse --> idStop
+kondisiDefault -- True --> kondisiDefaultTrue --> idOutputLanjutkan
+kondisiDefault -- False --> kondisiDefaultFalse --> idOutputLanjutkan
 ```
